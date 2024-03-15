@@ -1,4 +1,4 @@
-import './App.css';
+import '../css/App.css';
 import React from 'react';
 
 
@@ -13,6 +13,7 @@ const item = {
 
 class ShopItemClass extends React.Component {
   render () {
+    const {item} = this.props  
     return (
       <div className="main-content">
         <h2>{ item.brand }</h2>
